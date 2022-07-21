@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Edu+SA+Beginner:wght@400;500;700&display=swap');
+
+
+:root{
+    --header-bg-- : #faedcd;
+    --body-bg-- : #e3d5ca;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.heading{
+    background-color: var(--header-bg--);
+    padding: 3rem;
+    text-align: center;
+    position: relative;
+    font-family: 'Cinzel', serif;
+}
+
+.section{
+    background-color: var(--body-bg--);
+    width: 80%;
+    margin: 0rem auto;
+    padding: 3rem 0rem;
+}
+
+.txt-input{
+    width: 80%;
+    display: block;
+    margin: 0rem auto;
+    padding: 1rem;
+    height: 8rem;
+    border-radius: 1rem;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.2rem;
+}
+.translate-btn{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    display: block;
+    margin: 1.5rem auto;
+    font-size: medium;
+    font-family: 'Edu SA Beginner', cursive;
+    font-size: 1.4rem;
+}
+.txt{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Edu SA Beginner', cursive;
+}
+.outputTxt{
+    width: 80%;
+    display: block;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    height: 8rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.footer{
+    background-color: var(--header-bg--);
+    padding: 3rem;
+    text-align: center;
+}
+.abtText{
+    margin: 1rem 0rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.textInfo{
+    font-family: 'Edu SA Beginner', cursive;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+@media (min-width: 767px){
+    .textInfo{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
